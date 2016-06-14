@@ -40,7 +40,7 @@
   <section class="search valign-wrapper">
     <div class="container valign">
       <div class="row">
-        <h1 class="col s12">Compare Benchmarks of Hundreds of NVIDIA and AMD Graphics Cards</h1>
+        <h1 class="col s12">View &amp; Compare Benchmarks of Hundreds on NVIDIA and AMD Graphics Cards</h1>
         <form class="col s12 card valign-wrapper">
           <i class="material-icons valign">search</i>
           <input type="search" placeholder="Search GPUs">
@@ -53,6 +53,37 @@
     <div class="container">
 
       <h5 class="title">Best Graphics Cards on The Market</h5>
+
+      <div class="row">
+        <canvas id="TopCards" class="col s12"></canvas>
+        <table class="col s11 offset-s1">
+          <thead>
+            <tr>
+              <th data-field="id">Name</th>
+              <th data-field="name">Item Name</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Alvin</td>
+              <td>$0.87</td>
+            </tr>
+            <tr>
+              <td>Alan</td>
+              <td>$3.76</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h5 class="title">Best Bang-For-Buck Graphics Cards</h5>
+
+      <div class="row">
+        <canvas id="BangCards" class="col s12"></canvas>
+      </div>
+
+      <!-- Collection Concept
 
       <ul class="collection">
         <li class="collection-item avatar">
@@ -89,6 +120,8 @@
         </li>
       </ul>
 
+      -->
+
       <!-- Card Concept
 
       <div class="row">
@@ -115,7 +148,7 @@
           </div>
         </div>
       </div>
-      
+
       -->
 
     </div>
@@ -124,6 +157,7 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script src="js/Chart.js"></script>
   <script src="js/script.js"></script>
 </body>
 
